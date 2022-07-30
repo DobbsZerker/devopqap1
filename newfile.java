@@ -4,6 +4,9 @@ public class newfile {
 
     public newfile(String something, String name){
         this.something = something;
-        this.name = name
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
     }
 }
